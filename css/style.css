@@ -161,7 +161,7 @@ section > p, section > a, section > span {
 }
 
 section > a { font-size: 20px; }
-section > a.tel { font-size: 32px; }
+section > a.tel { font-size: 32px; z-index: 20; }
 
 @media screen and (max-width: 1024px) {
 
