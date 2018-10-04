@@ -46,8 +46,14 @@ header {
     box-sizing: border-box;
 }
 
-header > h1 { float: left; padding: 0; margin: 0; }
-header > h1 { font-size: 32px; line-height: 64px; font-style: italic; }
+header > h1 { 
+    float: left; 
+    padding: 4px 0 0 0;
+    margin: 0; 
+    font-size: 32px; 
+    line-height: 64px; 
+    font-style: italic; 
+}
 header > h2 { font-size: 16px; line-height: 64px; text-transform: uppercase }
 
 header > a { float: right; line-height: 64px; font-size: 22px; }
