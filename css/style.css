@@ -13,6 +13,11 @@
     src: url(../fonts/Dosis-Medium.ttf);
 }
 
+@font-face {
+    font-family: "Great Vibes";
+    src: url(../fonts/GreatVibes-Regular.otf);
+}
+
 html { overflow: hidden; }
 html, body, .parallax { height: 100%; }
 
@@ -48,7 +53,7 @@ header > h2 { font-size: 16px; line-height: 64px; text-transform: uppercase }
 header > a { float: right; line-height: 64px; font-size: 22px; }
 
 h1 {
-    font-family: "Dosis";
+    font-family: "Great Vibes";
     font-style: italic;
 }
 
