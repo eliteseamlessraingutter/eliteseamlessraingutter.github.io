@@ -89,8 +89,8 @@ section:before {
 section:not(:last-child) { border-bottom: 2px solid #2f2f2f; }
 section:nth-of-type(odd) { background-attachment: fixed; }
 section:nth-of-type(even):before { transform: translateZ(-1px) scale(2); z-index:-1; }
-section:nth-of-type(1) { background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)), url(../images/image_1.jpg) 50% 50% / cover; }
-section:nth-of-type(2):before { background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url(../images/image_2.jpg) 50% 50% / cover; }
+section:nth-of-type(1) { background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url(../images/image_2.jpg) 50% 50% / cover; }
+section:nth-of-type(2):before { background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)), url(../images/image_1.jpg) 50% 50% / cover; }
 section:nth-of-type(3) { background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), url(../images/image_4.jpg) 50% 50% / cover; }
 section:nth-of-type(4):before { background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url(../images/image_4.jpg) 50% 50% / cover; }
 section:nth-of-type(5) { background: linear-gradient(#4f4f4f, #6f6f6f) }
